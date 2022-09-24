@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "daedalus-telegram-bot"
+version = "0.1.0"
+description = "Telegram bot for Daedalus Volt server"
+authors = ["Jurriaan Den Toonder <1493561+Fastjur@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "daedalus_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = "^13.14"
+python-dotenv = "^0.21.0"
+pylint = "^2.15.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
